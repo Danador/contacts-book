@@ -1,0 +1,46 @@
+@import url('./fonts.css');
+
+:root {
+  --app-transition: all cubic-bezier(0.4, 0, 0.2, 1) 200ms;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-weight: normal;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0px;
+}
+
+.row > td {
+  padding: 12px 0px;
+  border-bottom: 1px solid #EAF2FD;
+}
+
+.row:last-child > td {
+  border: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
